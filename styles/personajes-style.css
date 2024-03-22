@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+    color: #ff4655;
+}
+a:hover {
+    color: white;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ff4655;
+}
+
+header {
+    padding-left: 10px;
+    right: 10vw;    
+    color: #ff4655;
+    display: flex;
+    background-color: #0f1923;
+}
+
+.title { 
+    font-size: 50px;
+    display: flex;
+    align-self: center;
+}
+
+.navegation-bar {
+    padding: 20px;
+    background-color: #0f1923;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.duelist {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+    background-color: #0f1923;
+    color: #ff4655 ;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    margin-bottom: 5px;
+}
+
+.controller {
+    padding: 20px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    background-color: #0f1923;
+    color: #ff4655 ;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    margin-bottom: 5px;
+}
+
+.initiator {
+    padding: 20px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    background-color: #0f1923;
+    color: #ff4655 ;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    margin-bottom: 5px;
+}
+
+.sentinel {
+    padding: 20px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    background-color: #0f1923;
+    color: #ff4655 ;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    margin-bottom: 5px;
+}
+
+.right {
+    margin-right: 30px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 30px;
+}
+
+.character-margin {
+    font-size: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 20px;
+}
+
+ p {
+    font-size: 30px;
+}
+
+.box-character-left {
+    display: flex;
+    padding-top: 50px;
+    padding: 20px;
+    color: #ff4655;
+    background-color: #0f1923;
+    padding-bottom: 50px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.box-character-right {
+    display: flex;
+    color:#ff4655;
+    background-color: #0f1923;
+    flex-direction: row-reverse;
+    padding-top: 50px;
+    padding: 20px;
+    padding-bottom: 50px;
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+
+
